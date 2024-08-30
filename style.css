@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* background-color: #eedff2; */
+}
+.top-container {
+  position: relative;
+  background-image: url(./assets/images/background\ main.jpg);
+  padding: 100px;
+  height: 300px;
+  object-fit: cover;
+}
+.title-h1 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+  margin: 0 0 1rem;
+  letter-spacing: 0.5rem;
+}
+.title h2 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 1.5rem;
+  color: white;
+  margin: 0;
+}
+.title {
+  margin-top: 100px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.intro {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: rgb(141, 140, 140);
+  margin-top: 2px;
+  /* margin-bottom: ; */
+}
+.intro-head {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgb(119, 11, 11);
+  margin: 20px 0px 0px 0px;
+}
+.intro-p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 70400;
+  font-style: normal;
+  font-size: 1.125rem;
+  color: rgb(141, 140, 140);
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
+}
+.intoducing {
+  margin-top: 100px;
+}
+hr {
+  border: 7px dotted rgba(128, 128, 128, 0.438);
+  max-width: 20px;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+.skills {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgba(63, 51, 173, 0.425);
+  letter-spacing: 1.5rem;
+  margin: 30px auto;
+}
+.parent img {
+  border-radius: 25%;
+  margin-top: 0;
+  width: 12rem;
+  height: 12rem;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 1.5fr;
+  grid-template-rows: repeat(1, 1fr);
+  text-align: center;
+  width: 50%;
+  margin: 75px auto 0 auto;
+  row-gap: 2rem;
+}
+h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: rgba(63, 51, 173, 0.425);
+  margin: 0;
+  /* margin-left: 10px; */
+}
+.coding {
+  text-align: center;
+}
+.text p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 10px 50px 5px;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.432);
+}
+.text h3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+/* .text {
+  align-self: center;
+} */
+.eating {
+  text-align: center;
+}
+.contact-me h2 {
+  font-family: "Titillium Web", sans-serif;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 4rem;
+  color: rgba(119, 11, 11, 0.479);
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.contact-me p {
+  font-family: "Titillium Web", sans-serif;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0 150px;
+  color: rgba(0, 0, 0, 0.432);
+  margin-bottom: 50px;
+}
+.contact-me h3 {
+  margin-bottom: 30px;
+  color: rgba(119, 11, 11, 0.808);
+  letter-spacing: 5px;
+}
+.btn {
+  background: #770b0b7a cdd4;
+  background-image: -webkit-linear-gradient(top, #770b0b7a, #ac0d0dab);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.contact-me {
+  margin-bottom: 200px;
+}
+.bottom-container {
+  background-color: #1d0a38;
+  height: 200px;
+  padding: 70px 0 0px;
+}
+
+.copyright {
+  color: white;
+  margin-top: 40px;
+}
+.link {
+  margin: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #64537c;
+}
